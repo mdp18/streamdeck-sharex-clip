@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144">
+  <rect width="144" height="144" rx="18" fill="#12202b"/>
+  <g fill="none" stroke="#4fc3f7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 46V26h20M96 26h20v20M116 72v20H96M48 92H28V72"/>
+  </g>
+  <text x="72" y="71" text-anchor="middle" font-family="Consolas, monospace" font-weight="700" font-size="30" fill="#ffffff">C:\…</text>
+  <text x="72" y="127" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="25" fill="#4fc3f7">PATH</text>
+</svg>

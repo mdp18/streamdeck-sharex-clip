@@ -1,0 +1,35 @@
+{
+	"Name": "ShareX Clip",
+	"Version": "1.0.0.0",
+	"Author": "dev",
+	"UUID": "com.dev.sharexclip",
+	"Description": "Region capture with ShareX, putting either the file path or the image on the clipboard.",
+	"Icon": "imgs/plugin",
+	"Category": "ShareX Clip",
+	"CategoryIcon": "imgs/category",
+	"CodePath": "bin/plugin.js",
+	"SDKVersion": 3,
+	"Software": { "MinimumVersion": "7.1" },
+	"OS": [{ "Platform": "windows", "MinimumVersion": "10" }],
+	"Nodejs": { "Version": "24" },
+	"Actions": [
+		{
+			"Name": "Region → File Path",
+			"UUID": "com.dev.sharexclip.path",
+			"Icon": "imgs/action-path",
+			"Tooltip": "Capture a region; the saved file's path goes on the clipboard (for terminal Claude Code).",
+			"Controllers": ["Keypad"],
+			"SupportedInMultiActions": true,
+			"States": [{ "Image": "imgs/key-path", "ShowTitle": false }]
+		},
+		{
+			"Name": "Region → Image",
+			"UUID": "com.dev.sharexclip.image",
+			"Icon": "imgs/action-image",
+			"Tooltip": "Capture a region; the image itself goes on the clipboard (for pasting anywhere else).",
+			"Controllers": ["Keypad"],
+			"SupportedInMultiActions": true,
+			"States": [{ "Image": "imgs/key-image", "ShowTitle": false }]
+		}
+	]
+}
