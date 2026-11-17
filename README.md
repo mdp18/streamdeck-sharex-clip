@@ -72,6 +72,10 @@ If you would rather not run the script, create the two workflows by hand in **Ho
 
 Delete `com.dev.sharexclip.sdPlugin` from the Stream Deck plugins folder and restart Stream Deck, then delete the two `SD Region` entries in ShareX's Hotkey settings.
 
+## License
+
+[MIT](LICENSE)
+
 ---
 
 Not affiliated with ShareX or Elgato.
